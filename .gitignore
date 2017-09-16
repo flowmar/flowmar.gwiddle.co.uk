@@ -1,4 +1,4 @@
-.DS_Store
-sass
-font
+*.DS_Store
 node_modules
+font
+sass
