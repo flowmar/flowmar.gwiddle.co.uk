@@ -388,3 +388,7 @@ small {
 button {
     cursor: pointer;
 }
+
+.navbtn {
+    text-align: center !important;
+}

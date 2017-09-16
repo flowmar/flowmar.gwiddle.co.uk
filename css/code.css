@@ -1,10 +1,13 @@
 html {
     background: darkgreen;
     text-align: center;
+    margin: 0;
 }
 
 body {
     color: white;
+    height: 100%;
+    margin: 0;
 }
 
 .btn a {
@@ -14,15 +17,13 @@ body {
 body.loaded {
     background-color: slategrey;
     -webkit-transition: all 3s ease-in-out;
-    -moz-transition: all 3s ease-in-out;
-    -o-transition: all 3s ease-in-out;
     transition: all 3s ease-in-out;
 }
 
 #upper {
     font-size: 2rem;
-    font-family: "Press Start 2P";
-    text-shadow: .1rem .1rem .1rem green;
+    font-family: 'Press Start 2P';
+    text-shadow: 0.1rem 0.1rem 0.1rem green;
 }
 
 #connect {
@@ -32,7 +33,17 @@ body.loaded {
 }
 
 footer {
-    font-size: .4rem;
+    font-size: 0.4rem;
     background: black;
     text-shadow: 1rem 1rem 1rem black;
+}
+
+.footer {
+    position: absolute;
+    top: 150%;
+    bottom: 50%;
+    width: 100%;
+    height: 4rem;
+    line-height: 2rem;
+    background-color: #f5f5f5;
 }
