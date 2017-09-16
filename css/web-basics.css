@@ -1,15 +1,38 @@
 .wfbtnword {
-    color: #eceff1;
+  color: ghostwhite;
 }
 
 .cssbtnword {
-    color: #90caf9;
+  color: ghostwhite;
 }
 
 .mediabtnword {
-    color: #ffcdd2;
+  color: ghostwhite;
 }
 
 .bs4btnword {
-    color: #84ffff;
+  color: ghostwhite;
+}
+
+li {
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  text-shadow: 0.03rem 0.03rem 0.03rem black;
+}
+
+footer a {
+  text-shadow: 0.03rem 0.03rem 0.03rem white;
+}
+
+a {
+  cursor: pointer;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.1) !important;
+  margin-top: -2.1rem;
+  height: 60vh;
 }
