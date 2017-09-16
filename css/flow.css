@@ -1,9 +1,8 @@
 body.loaded {
-    background-color: #1a5c9a;
+    background-color: #092136;
     -webkit-transition: all 3s ease-in-out;
-    -moz-transition: all 3s ease-in-out;
-    -o-transition: all 3s ease-in-out;
     transition: all 3s ease-in-out;
+    text-shadow: 0.02rem 0.03rem 0.04rem lightskyblue;
 }
 
 footer {
@@ -12,20 +11,21 @@ footer {
 
 .footer {
     margin-top: -1.3rem;
-    padding: .09rem;
-    background-color: rgba(0, 0, 0, .15);
+    padding: 0.09rem;
+    /* background-color: rgba(0, 0, 0, 0.15); */
+    text-shadow: 0.02rem 0.03rem 0.04rem lightskyblue;
 }
 
 a {
     color: slategrey;
-    text-shadow: .04rem .03rem .13rem black;
+    text-shadow: 0.04rem 0.03rem 0.13rem black;
 }
 
 a:hover {
-    text-shadow: .04rem .03rem .13rem white;
+    text-shadow: 0.04rem 0.03rem 0.13rem white;
 }
 
 .navbar {
     margin-top: 0;
-    background-color: rgba(0, 0, 0, .15);
+    background-color: rgba(0, 0, 0, 0.15);
 }
