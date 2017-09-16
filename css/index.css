@@ -1,0 +1,195 @@
+body.loaded {
+    background-color: #040404;
+    -webkit-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+    margin: 0;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+.disabled:hover {
+    border: white solid 1px;
+}
+
+
+/******************************************************
+	ROUNDED BUTTONS
+******************************************************/
+
+.btn.round {
+    border-radius: 24px;
+}
+
+.btn-lg.round {
+    border-radius: 32px;
+}
+
+.btn-sm.round {
+    border-radius: 14px;
+}
+
+.btn-xs.round {
+    border-radius: 10px;
+}
+
+
+/******************************************************
+	RAISED BUTTONS
+******************************************************/
+
+.btn-primary.raised {
+    -webkit-box-shadow: 0 3px 0 0 #00695c;
+    box-shadow: 0 3px 0 0 #00695c;
+}
+
+.btn-primary.raised:active,
+.btn-primary.raised.active {
+    background: #00695c;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn-success.raised {
+    -webkit-box-shadow: 0 3px 0 0 #008c52;
+    box-shadow: 0 3px 0 0 #008c52;
+}
+
+.btn-success.raised:active,
+.btn-success.raised.active {
+    background: #39bf87;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn-info.raised {
+    -webkit-box-shadow: 0 3px 0 0 #35a2b5;
+    box-shadow: 0 3px 0 0 #35a2b5;
+}
+
+.btn-info.raised:active,
+.btn-info.raised.active {
+    background: #5fd4e8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn-warning.raised {
+    -webkit-box-shadow: 0 3px 0 0 #b87430;
+    box-shadow: 0 3px 0 0 #b87430;
+}
+
+.btn-warning.raised:active,
+.btn-warning.raised.active {
+    background: #eba259;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn-danger.raised {
+    -webkit-box-shadow: 0 3px 0 0 #bf4343;
+    box-shadow: 0 3px 0 0 #bf4343;
+}
+
+.btn-danger.raised:active,
+.btn-danger.raised.active {
+    background: #f26d6d;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.codebtnword {
+    color: darkgreen;
+}
+
+.flowbtnword {
+    color: darkblue;
+}
+
+.contactbtnword {
+    color: #e65100;
+}
+
+.moveFlow {
+    /* position: fixed; */
+}
+
+.copy {
+    font-family: 'Oswald';
+}
+
+small {
+    font-family: 'Oswald';
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #dad3d3;
+    /* text-shadow: 0.03rem 0.02rem 0.01rem whitesmoke; */
+}
+
+
+/* .hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+} */
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576 px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 645 px) {
+    #intro {}
+    #first {
+        margin-top: auto;
+        padding-top: 10%;
+        display: inline;
+    }
+    #flow {
+        float: left !important;
+    }
+}
+
+@media (min-width: 768 px) {
+    .navbtn {
+        /* visibility: hidden; */
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992 px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200 px) {}

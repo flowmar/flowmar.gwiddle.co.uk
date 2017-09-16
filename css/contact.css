@@ -1,0 +1,27 @@
+html,
+body {
+    overflow: none;
+}
+
+form {
+    color: white;
+    text-shadow: none;
+    margin-left: 1vw;
+}
+
+p {
+    text-shadow: none;
+}
+
+footer {
+    color: white;
+}
+
+footer i {
+    color: #00dd00;
+    text-shadow: .03rem .04rem .01rem lightcyan;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, .05);
+}
