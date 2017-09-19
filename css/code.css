@@ -1,7 +1,6 @@
 html {
   text-align: center;
   margin: 0;
-  height: 100%;
 }
 
 body {
@@ -34,23 +33,14 @@ body.loaded {
 
 footer {
   font-size: 1rem;
-  /* background: black; */
   text-shadow: 0.02rem 0.02rem 0.02rem white, 0.03rem 0.03rem 0.05rem black;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
 }
 
 footer a {
   text-shadow: 0.03rem 0.04rem 0.06rem white, 0.03rem 0.03rem 0.05rem black;
 }
 
-.footer {
-  top: 150%;
-  bottom: 100%;
-  width: 100%;
-  height: 100%;
-  line-height: 1rem;
-}
-
 main {
-  height: 40vh;
+  height: 37vh;
 }
