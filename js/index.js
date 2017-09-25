@@ -1,6 +1,6 @@
 var viewportWidth = $(window).width();
 
-$(document).ready(function() {
+$(document).ready(function () {
     if (viewportWidth < 576) {
         $('.navbtn').show();
     }
@@ -21,8 +21,8 @@ $(document).ready(function() {
     }
 });
 
-$(document).ready(function() {
-    $(window).resize(function() {
+$(document).ready(function () {
+    $(window).resize(function () {
         if (viewportWidth < 576) {
             $('.navbtn').show();
             $('.nav-list')
@@ -43,14 +43,23 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    $('#code-link').on('click', function() {
+$(document).ready(function () {
+    $('#code-link').on('click', function () {
         $('button').addClass('rollOut');
     });
 });
-// $(window).resize(function() {
-// 	var viewportWidth = $(window).width();
-// 	if (viewportWidth >= 1100) {
-// 		$('#flow').addClass('moveFlow mt-5');
-// 	}
-// });
+
+$(document).ready(async function () {
+
+    await $('#jumb').one('webkitAnimationEnd moxAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $('hi').addClass('rollIn');
+    });
+
+    await $('#hi').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $('#intro').addClass('lightSpeedIn');
+    });
+
+    await $('#intro').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $('#first').addClass('rollIn');
+    });
+});

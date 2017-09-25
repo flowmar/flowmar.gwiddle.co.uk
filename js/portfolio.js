@@ -1,6 +1,5 @@
-$(document).ready(function() {
+$(document).ready(function () {
 	$('body').addClass('loaded');
-	pageLoad();
 });
 
 var viewportWidth = $(window).width();
@@ -19,12 +18,10 @@ if (viewportWidth >= 768) {
 	$('.nav-list').addClass('navbar-tablet list-inline');
 	// $('.nav-item').addClass('list-inline-item');
 }
-if (viewportWidth >= 992) {
-}
-if (viewportWidth >= 1200) {
-}
+if (viewportWidth >= 992) {}
+if (viewportWidth >= 1200) {}
 
-$(window).resize(function() {
+$(window).resize(function () {
 	if (viewportWidth < 576) {
 		$('.nav-list')
 			.removeClass('list-inline')
