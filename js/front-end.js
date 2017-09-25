@@ -36,7 +36,7 @@ function clickable() {
     $('#trivia').on('click', function () {
         $(this).addClass('active');
         $('#button-area-3').html(
-            '<a href="https://flowmar.github.io/Responsive-Portfolio"><button class="btn btn-unique animated bounceIn" type=button title="Live Link">Live Link</button></a><a href= "https://github.com/flowmar/Responsive-Portfolio"> <button class="btn btn-indigo animated rollIn" type="button" title="Source Code">Source Code</button></a><a href="https://github.com/flowmar/trivia-game/blob/master/README.md"><button class="btn-deep-orange btn animated fadeIn" type=button title="READ ME!">README</button></a>'
+            '<a href="https://flowmar.github.io/trivia-game"><button class="btn btn-unique animated bounceIn" type=button title="Live Link">Live Link</button></a><a href= "https://github.com/flowmar/trivia-game"> <button class="btn btn-indigo animated rollIn" type="button" title="Source Code">Source Code</button></a><a href="https://github.com/flowmar/trivia-game/blob/master/README.md"><button class="btn-deep-orange btn animated fadeIn" type=button title="READ ME!">README</button></a>'
         );
         $('#trivia').on('click', function () {
             $(this).removeClass('active');
@@ -50,7 +50,7 @@ function clickable() {
     $('#gifapi').on('click', function () {
         $(this).addClass('active');
         $('#button-area-4').html(
-            '<a href="https://flowmar.github.io/Bootstrap-Portfolio"><button class="btn btn-unique animated bounceIn" type=button title="Live Link">Live Link</button></a><a href= "https://github.com/flowmar/Bootstrap-Portfolio"> <button class="btn btn-indigo animated rollIn" type="button" title="Source Code">Source Code</button></a><a href="https://github.com/flowmar/gifs-in-a-jiffy/blob/master/README.md"><button class="btn-deep-orange btn animated fadeIn" type=button title="READ ME!">README</button></a>'
+            '<a href="https://flowmar.github.io/trivia-game"><button class="btn btn-unique animated bounceIn" type=button title="Live Link">Live Link</button></a><a href= "https://github.com/flowmar/trivia-game"> <button class="btn btn-indigo animated rollIn" type="button" title="Source Code">Source Code</button></a><a href="https://github.com/flowmar/trivia-game/blob/master/README.md"><button class="btn-deep-orange btn animated fadeIn" type=button title="READ ME!">README</button></a>'
         );
         $('#gifapi').on('click', function () {
             $(this).removeClass('active');
