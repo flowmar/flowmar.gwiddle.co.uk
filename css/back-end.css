@@ -1,0 +1,38 @@
+.layer-0 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #0077CC;
+    width: 317px;
+    height: 200px;
+    opacity: 1;
+    transform: rotate(0deg) scaleX(0.99) scaleY(1.08) skewX(0deg) skewY(0deg);
+    -webkit-transform: rotate(0deg) scaleX(0.99) scaleY(1.08) skewX(0deg) skewY(0deg);
+    -moz-transform: rotate(0deg) scaleX(0.99) scaleY(1.08) skewX(0deg) skewY(0deg);
+    -ms-transform: rotate(0deg) scaleX(0.99) scaleY(1.08) skewX(0deg) skewY(0deg);
+    -o-transform: rotate(0deg) scaleX(0.99) scaleY(1.08) skewX(0deg) skewY(0deg);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-family: Dickens Carol;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 98px;
+    padding-top: 90px;
+    line-height: 12px;
+    -webkit-text-stroke: 0px #79E273;
+    -webkit-filter: grayscale(0) sepia(0) saturate(1.52) hue-rotate(0deg) brightness(1.03) contrast(1) invert(0) opacity(1)blur(69px);
+    filter: grayscale(0) sepia(0) saturate(1.52) hue-rotate(0deg) brightness(1.03) contrast(1) invert(0) opacity(1)blur(69px);
+    -webkit-transform: grayscale(0) sepia(0) saturate(1.52) hue-rotate(0deg) brightness(1.03) contrast(1) invert(0) opacity(1)blur(69px);
+    -moz-transform: grayscale(0) sepia(0) saturate(1.52) hue-rotate(0deg) brightness(1.03) contrast(1) invert(0) opacity(1)blur(69px);
+    -ms-transform: grayscale(0) sepia(0) saturate(1.52) hue-rotate(0deg) brightness(1.03) contrast(1) invert(0) opacity(1)blur(69px);
+    -o-transform: grayscale(0) sepia(0) saturate(1.52) hue-rotate(0deg) brightness(1.03) contrast(1) invert(0) opacity(1)blur(69px);
+    box-shadow: 0px 2px 6px #F4F5F5 inset, 0px -2px 6px #000000 inset, 0px 0px 34px 40px #000000, -1px -10px 54px 22px #000000 inset;
+    -webkit-box-shadow: 0px 2px 6px #F4F5F5 inset, 0px -2px 6px #000000 inset, 0px 0px 34px 40px #000000, -1px -10px 54px 22px #000000 inset;
+    -moz-box-shadow: 0px 2px 6px #F4F5F5 inset, 0px -2px 6px #000000 inset, 0px 0px 34px 40px #000000, -1px -10px 54px 22px #000000 inset;
+    -ms-box-shadow: 0px 2px 6px #F4F5F5 inset, 0px -2px 6px #000000 inset, 0px 0px 34px 40px #000000, -1px -10px 54px 22px #000000 inset;
+    -o-box-shadow: 0px 2px 6px #F4F5F5 inset, 0px -2px 6px #000000 inset, 0px 0px 34px 40px #000000, -1px -10px 54px 22px #000000 inset;
+    text-shadow: 0px -3px 5px #FFFFFF, 0px 3px 5px #000000;
+}
