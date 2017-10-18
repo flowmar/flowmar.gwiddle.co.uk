@@ -21,7 +21,7 @@
 <body class="container-fluid border">
     <!-- Banner -->
 
-    <header class="row border border-dark z-depth-1-half" id="banner">
+    <header class="row border border-dark z-depth-1-half animated slideInDown" id="banner">
         <div class="col"></div>
 
         <div class="col-10 text-center font-weight-bold m-4 display-4" id="title">LiriBot</div>
@@ -35,7 +35,7 @@
         <div class="col-12">
 
     <!-- Intro-->
-            <article class="border p-2 z-depth-3">
+            <article class="border p-2 z-depth-3 animated slideInLeft">
                 <header class="">
                     <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">The Liri Application</h2>
                 </header>
@@ -55,7 +55,7 @@
 
             <br>
 <!-- How To Use -->
-            <article class="border p-2 z-depth-3">
+            <article class="border p-2 z-depth-3 animated slideInRight">
                 <header class="">
                     <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">How to Use</h2>
                 </header>
@@ -89,15 +89,29 @@
             <br>
 
 <!-- Examples -->
-            <article class="border p-2 z-depth-3">
+            <article class="border p-2 z-depth-3 animated slideInLeft">
                     <header class="">
                         <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">Examples</h2>
                     </header>
 
-        <hr class="white">
-                    <p class="ml-1 font-weight-bold mt-2">
-                        <img src="../../../images/my-tweets-screenshot.png" alt="Screenshot of 'my-tweets' command">
-                    </p>
+                <hr class="white">
+                    <figure>
+                        <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="my-tweets-shot" src="1.png" alt="Screenshot of 'my-tweets' command">
+                        <figcaption class="font-weight-bold text-center">Using the 'my-tweets' command displays the user's last 20 tweets.</figcaption>
+                    </figure>
+                        <hr class="white">
+
+                        <figure>
+                            <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="spotify-shot" src="2.png" alt="Screenshot of 'spotify-this-song' command">
+                            <figcaption class="font-weight-bold text-center">The song that most closely matches the query is displayed.</figcaption>
+                        </figure>
+                            <hr class="white">
+
+                            <figure>
+                                <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="movie-shot" src="3.png" alt="Screenshot of 'movie-this' command">
+                                <figcaption class="font-weight-bold text-center">A summary of the movie is shown.</figcaption>
+                            </figure>
+                                <hr class="white">
                 </article>
         </div>
 
@@ -115,10 +129,13 @@
     </aside> -->
 
 </main>
-    <hr>
+<div class="row text-center justify-content-center my-1 mx-3">
+    <button class="btn btn-deep-purple btn-block btn-lg z-depth-2 mx-2 animated tada"><a href="./../back-end.html"><i class="fa fa-backward" aria-hidden="true">Back to Back End Projects</i></a></button>
+    </div>
+    <!-- <hr> -->
     <!-- Footer -->
 
-    <footer class="text-center row">
+    <footer class="text-center row animated slideInUp">
         <p class="col font-weight-bold p-4">&copy;2017 Omar Imam</p>
     </footer>
 
