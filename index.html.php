@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-    <head>
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.inc.html.php';?>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">`
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Omar's Portfolio</title>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand|Oswald|Press+Start+2P|Pacifico|Shadows+Into+Light+Two" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="css/mdb.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/rainbow.css" rel="stylesheet">
-        <link href="css/index.css" rel="stylesheet">
+<link href="css/rainbow.css" rel="stylesheet">
+            <link href="css/index.css" rel="stylesheet">
 
-    </head>
-
+        </head>
     <body class="dark-gradient">
         <!-- Navigation -->
         <nav class="navbar animated slideInDown justify-content-center col z-depth-3" role="navigation">

@@ -3,3 +3,4 @@ node_modules
 font
 sass
 robots.txt
+includes/d*
