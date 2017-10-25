@@ -1,5 +1,6 @@
 <?php
-    $backendcss=$_SERVER['HTTP_HOST'] . '/css/back-end.css'
+    $indexcss=$_SERVER['HTTP_HOST'] . '/css/index.css';
+    $backendcss=$_SERVER['HTTP_HOST'] . '/css/back-end.css';
 ?>
 
 <link rel="stylesheet" href="https://<?php echo $backendcss ?>">
@@ -67,7 +68,7 @@
                     <br><br>
                     <div class="row animated fadeIn">
                         <div class="col text-center">
-                            <a href="../../code.html" title="Go Back">
+                            <a href="../../code" title="Go Back">
                             <button class="btn btn-secondary purple-gradient raised animated fadeIn" type="button">
                         <i class="fa fa-arrow-left"></i>
                             Back

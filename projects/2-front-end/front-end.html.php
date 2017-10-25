@@ -1,8 +1,9 @@
 <?php
-    $frontendcss=$_SERVER['HTTP_HOST'] . '/css/front-end.css'
+    $indexcss='/css/index.css';
+    $frontendcss='../css/front-end.css';
 ?>
 
-<link href="../../css/index.css" rel="stylesheet">
+<link href=https://"<?php echo $indexcss ?>" rel="stylesheet">
 <link rel="stylesheet" href="https://<?php echo $frontendcss ?>">
 </head>
 <body>
@@ -68,11 +69,11 @@
                 <br><br>
                 <div class="row animated fadeIn">
                     <div class="col text-center">
-                        <a href="../../code.html" title="Go Back">
+                        <a href="../../code" title="Go Back">
                         <button class="btn btn-secondary purple-gradient raised animated fadeIn" type="button">
-					<i class="fa fa-arrow-left"></i>
-						Back
-					</button>
+                    <i class="fa fa-arrow-left"></i>
+                        Back
+                    </button>
                     </a>
                     </div>
                 </div>
@@ -114,8 +115,9 @@
             </div>
         </div>
         <!-- SCRIPTS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"

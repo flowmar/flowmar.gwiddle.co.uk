@@ -21,19 +21,19 @@
             </header>
             <br>
             <main class="container-fluid text-center animated zoomIn p-3 mb-0">
-                <a class="btn btn-amber animated bounceInUp orange darken-4 waves-effect waves-light" href="./projects/1-web-basics/" role="button">
+                <a class="btn btn-amber animated bounceInUp orange darken-4 waves-effect waves-light" href="https://<?php echo $_SERVER['HTTP_HOST']?>/projects/1-web-basics/" role="button">
                     Web Basics
             </a>
 
-                <a class="btn btn-info info-color-dark animated bounceInDown waves-effect waves-light" href="./projects/2-front-end/" role="button">
+                <a class="btn btn-info info-color-dark animated bounceInDown waves-effect waves-light" href="https://<?php echo $_SERVER['HTTP_HOST']?>/projects/2-front-end/" role="button">
             Front End Development
         </a>
 
-                <a class="btn indigo animated bounceInDown waves-effect waves-light" href="./projects/3-back-end/" role="button">
+                <a class="btn indigo animated bounceInDown waves-effect waves-light" href="https://<?php echo $_SERVER['HTTP_HOST']?>/projects/3-back-end/" role="button">
         Back End Development
     </a>
 
-                <a class="btn animated bounceInDown waves-effect waves-light" href="./projects/4-full-stack/" role="button">
+                <a class="btn btn-default animated bounceInDown waves-effect waves-light" href="https://<?php echo $_SERVER['HTTP_HOST']?>/projects/4-full-stack/" role="button">
 Full Stack Projects
 </a>
                 <!-- <div class="btn-group">
@@ -97,8 +97,8 @@ Full Stack Projects
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-        <script src="js/mdb.min.js" type="text/javascript"></script>
-        <script src="js/portfolio.js"></script>
+        <script src="../js/mdb.min.js" type="text/javascript"></script>
+        <script src="../js/portfolio.js"></script>
     </body>
 
 </html>

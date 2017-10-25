@@ -15,17 +15,17 @@
                         </a>
                 </li>
                 <li class="list-inline-item nav-item animated slideInUp mb-1">
-                    <a class="btn btn-block btn-default btn-lg nav-link" href="../../code.html">
+                    <a class="btn btn-block btn-default btn-lg nav-link" href="https://<?php echo $_SERVER['HTTP_HOST']; ?>/code">
                             Code
                         </a>
                 </li>
                 <li class="list-inline-item nav-item animated slideInRight mb-1">
-                    <a class="btn btn-inverse btn-block btn-indigo btn-lg nav-link" href="../..flow.html">
+                    <a class="btn btn-inverse btn-block btn-indigo btn-lg nav-link" href="https://<?php echo $_SERVER['HTTP_HOST']; ?>/flow">
                             Flow
                         </a>
                 </li>
-                <li class="list-inline-item nav-item animated slideInDown">
-                    <a class="btn btn-inverse btn-block btn-light-green btn-lg nav-link" href="../../contact.html">
+                <li class="list-inline-item nav-item animated slideInDown mb-1">
+                    <a class="btn btn-inverse btn-block btn-light-green btn-lg nav-link" href="https://<?php echo $_SERVER['HTTP_HOST']; ?>/contact">
                             Contact
                         </a>
                 </li>

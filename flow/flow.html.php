@@ -1,7 +1,5 @@
 <?php
-
-    include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/head.inc.html.php';
-    $bendscss=$SERVER['HTTP_HOST'] . '/css/bends.css';
+    $bendscss=$_SERVER['HTTP_HOST'] . '/css/bends.css';
     $flowcss=$_SERVER['HTTP_HOST'] . '/css/flow.css';
 ?>
 
@@ -11,15 +9,9 @@
 
 </head>
 
-<body class="blue-gradient">
-
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/nav.inc.html.php'?>
-
-        <link href="css/bends.css" rel="stylesheet">
-        <link href="css/flow.css" rel="stylesheet">
-    </head>
-
     <body>
+
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/nav.inc.html.php'?>
 
         <!-- Main -->
         <div class="blue-gradient z-depth-3">
@@ -58,7 +50,7 @@
                 <div class="col"></div>
                 <p class="h4 col">
                     I will have some updates on Flow stuff very soon... for now, here's a bunch of flowspam:
-                    <iframe src="http://users.instush.com/collage/?cols=7&rows=7&sl=true&user_id=182556602&username=flowmarhoops&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=false&gpd=6&drp=false&pin=true&t=999999ru8QJEpSAUsNK_C5m7HWvHmEoVVNxb-lPwmLxZqQhLYmBkFxJpNtNAGoaxJHTWHy1Uv_92AlMWY" allowtransparency="true" frameborder="0" scrolling="no" style="display:block;width:733px;height:733px;border:none;overflow:visible;"></iframe>
+                    <iframe src="https://users.instush.com/collage/?cols=7&rows=7&sl=true&user_id=182556602&username=flowmarhoops&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=false&gpd=6&drp=false&pin=true&t=999999ru8QJEpSAUsNK_C5m7HWvHmEoVVNxb-lPwmLxZqQhLYmBkFxJpNtNAGoaxJHTWHy1Uv_92AlMWY" allowtransparency="true" frameborder="0" scrolling="no" style="display:block;width:733px;height:733px;border:none;overflow:visible;"></iframe>
                 </p>
                 <div class="col"></div>
             </div>
@@ -106,9 +98,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-        <script src="js/mdb.min.js" type="text/javascript"></script>
-        <script src="js/portfolio.js"></script>
-        <script src="js/flow.js"></script>
+        <script src="../js/mdb.min.js" type="text/javascript"></script>
+        <script src="../js/portfolio.js"></script>
+        <script src="../js/flow.js"></script>
     </body>
 
 </html>
