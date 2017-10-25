@@ -1,47 +1,14 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.inc.html.php';?>
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/indexhead.inc.html.php';?>
 
 <link href="css/rainbow.css" rel="stylesheet">
             <link href="css/index.css" rel="stylesheet">
 
         </head>
     <body class="dark-gradient">
-        <!-- Navigation -->
-        <nav class="navbar animated slideInDown justify-content-center col z-depth-3" role="navigation">
-            <span class="navbtn"><button class="navbar-toggle bg-dark z-depth-3" data-target="#theNav" data-toggle="collapse" type="button">
-                        <i class="fa fa-navicon fa-2x text-white"></i>
-                </button>
-        </span>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="collapse navbar-collapse" id="theNav">
-                <ul class="navbar-nav animated tada text-center nav-list">
-                    <li class="list-inline-item nav-item animated slideInLeft mb-1">
-                        <a class="active disabled btn btn-mdb btn-block btn-lg nav-link" href="./index.html" title="Home">
-                            Home
-                        </a>
-                    </li>
-                    <li class="list-inline-item nav-item animated slideInUp mb-1">
-                        <a class="btn btn-block btn-default nav-link" href="./code.html" title="Code">
-                            Code
-                        </a>
-                    </li>
-                    <li class="list-inline-item nav-item animated slideInRight mb-1">
-                        <a class="btn btn-inverse btn-block btn-indigo nav-link" href="./flow.html" title="Flow">
-                            Flow
-                        </a>
-                    </li>
-                    <li class="list-inline-item nav-item animated slideInDown">
-                        <a class="btn btn-inverse btn-block btn-light-green nav-link" href="./contact.html">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/nav.inc.html.php'; ?>
         <hr>
 
         <!-- Main -->
