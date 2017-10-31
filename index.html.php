@@ -41,8 +41,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/indexhead.inc.html.php
                 </div>
                 <br><br><br><br>
                 <div class="row pull-left text-left mt-1">
-                    <div class="text-danger animated rollIn col-12" id="toy" title="Shameless Self-Promotion">and a flow propsmith.
+                    <div class="text-danger animated rollIn col-6" id="toy" title="Shameless Self-Promotion">and a flow propsmith.
                     </div>
+
                 </div>
             </div>
             <br>
@@ -50,7 +51,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/indexhead.inc.html.php
             <br>
             <br>
             <br>
-            <hr class="white">
             <section class="container-fluid mt-4 h-100 mb-2">
                 <div class="row">
                     <div class="col"></div>
@@ -105,7 +105,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/indexhead.inc.html.php
         </main>
         <hr class="white">
 
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/footer.html.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] .  '/ i ncludes/ c omponents/ f ooter. h tml. p hp'?>
 
         <!-- SCRIPTS -->
 
