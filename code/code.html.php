@@ -1,6 +1,4 @@
 <?php
-    include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/head.inc.html';
-
     $codecss=$_SERVER['HTTP_HOST'] . '/css/code.css';
 ?>
 

@@ -1,14 +1,16 @@
 <?php
-    $indexcss='/css/index.css';
-    $frontendcss='../css/front-end.css';
+$indexcss =$_SERVER['HTTP_HOST']. '/css/index.css';
+$frontendcss =$_SERVER['HTTP_HOST']. '/css/front-end.css';
 ?>
+
+
 
 <link href=https://"<?php echo $indexcss ?>" rel="stylesheet">
 <link rel="stylesheet" href="https://<?php echo $frontendcss ?>">
 </head>
 <body>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/nav.inc.html.php'?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/nav.inc.html.php' ?>
 
 
         <br>
