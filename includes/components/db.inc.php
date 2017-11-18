@@ -6,6 +6,6 @@ try {
     $pdo->exec('SET NAMES "utf8"');
 } catch (PDOException $e) {
     $error = "Unable to connect to the database server.";
-    include 'error.html.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/includes/error.html.php';
     exit();
 }

@@ -1,3 +1,7 @@
+body {
+    margin-left: 2rem !important;
+}
+
 body.loaded {
     background-color: #040404;
     -webkit-transition: all 3s ease-in-out;
@@ -161,7 +165,12 @@ small {
 // No media query since this is the default in Bootstrap
 // Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576 px) {}
+@media (min-width: 576 px) {
+  #toy {
+    margin: auto;
+    display: block;
+  }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 
@@ -223,7 +232,7 @@ footer a {
 
 @media screen and (max-width: 460px) {
     #toy {
-        font-size: 0.5rem;
+        font-size: 4vh;
     }
 }
 
@@ -231,4 +240,10 @@ footer a {
     height: 10px;
     width: 100%;
     background-color: rgba(0, 0, 0, 1);
+}
+
+.updates{
+  padding: 5%;
+  margin: auto;
+  text-align: center;
 }
