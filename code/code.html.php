@@ -7,11 +7,12 @@
 
     <body class="graphite-gradient">
 
+
+<!-- NAV -->
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/nav.inc.html.php'?>
 
         <!-- Main -->
-        <!-- Title -->
-        <div class="graphite-gradient p-3 z-depth-3 mb-0">
+                <div class="graphite-gradient p-3 z-depth-3 mb-0">
             <header class="container-fluid pt-4">
                 <div class="jumbotron-fluid text-center text-success col-12 animated lightSpeedIn" id="upper">
                     Code
@@ -58,43 +59,15 @@ Full Stack Projects
 
 
         <!-- Footer -->
-        <div class="container-fluid z-depth-3">
-            <div class="row card bg-transparent animated flipInX">
-                <footer class="jumbotron-fluid col-12 p-4">
-                    <small>Connect With Me</small>
-                    <br>
-                    <ul class="connect list-inline">
-                        <li class="list-inline-item">
-                            <a href="https://github.com/flowmar" title="Github">
-                        <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-                    </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://linkedin.com/in/flowmar" title="LinkedIn">
-                        <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
-                    </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://instagram.com/kineticvortexflow" title="Instagram">
-                        <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
-                    </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://kineticvortexflow.com" title="Kinetic Vortex Flow">
-                        <i class="fa fa-circle-o-notch fa-4x" aria-hidden="true"></i>
-                    </a>
-                        </li>
-                    </ul>
-                    <div class="copy col-12">
-                        ©2017 Omar Imam
-                    </div>
-                </footer>
-            </div>
-        </div>
+
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/footer.html.php';?>
+
         <!-- SCRIPTS -->
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
         <script src="../js/mdb.min.js" type="text/javascript"></script>
         <script src="../js/portfolio.js"></script>
     </body>

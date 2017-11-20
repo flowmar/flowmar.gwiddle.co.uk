@@ -5,3 +5,5 @@ sass
 robots.txt
 db.*
 .vscode
+vendor
+

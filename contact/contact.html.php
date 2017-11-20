@@ -33,53 +33,17 @@
 </main>
 
 <!-- Footer -->
-<div
-    class="container-fluid text-center mt-4 animated slideInUp position-sticky p-3 pb-4">
-    <div class="row">
-        <footer class="jumbotron-fluid col-12">
-            <small>Connect With Me</small>
-            <br>
-            <ul class="connect list-inline">
-                <li class="list-inline-item">
-                    <a href="https://github.com/flowmar">
-                        <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://linkedin.com/in/flowmar">
-                        <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://instagram.com/kineticvortexflow">
-                        <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://kineticvortexflow.com">
-                        <i class="fa fa-circle-o-notch fa-4x" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>
-            <div class="copy col-xs-12">
-                ©Omar Imam 2017
-            </div>
-        </footer>
-    </div>
-</div>
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/components/footer.html.php';?>
+
 <!-- SCRIPTS -->
 <script
     src="https://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
-<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-    crossorigin="anonymous"></script>
-<script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <script src="../js/mdb.min.js" type="text/javascript"></script>
 <script src="../js/portfolio.js "></script>
 </body>

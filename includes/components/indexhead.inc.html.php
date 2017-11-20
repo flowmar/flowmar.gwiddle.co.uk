@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
+
+/**
+ * Require helper functions
+ * */
+
+
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
             $mdb=$_SERVER['HTTP_HOST'] . '/css/mdb.min.css';
             $style=$_SERVER['HTTP_HOST'] . '/css/style.css';
             $portfoliojs=$_SERVER['HTTP_HOST']. '/js/portfolio.js';
-
+            $pageTitle='Home';
             ?>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +21,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
             <title><?php htmlout($pageTitle) ?></title>
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Quicksand|Oswald|Press+Start+2P|Pacifico|Shadows+Into+Light+Two" rel="stylesheet">
-            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
             <link href="https://<?php htmlout($mdb) ?>" rel="stylesheet">
             <link href="https://<?php htmlout($style) ?>" rel="stylesheet">
 

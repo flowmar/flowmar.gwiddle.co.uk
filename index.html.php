@@ -64,40 +64,7 @@
         class="d-flex col-12 justify-content-center bg-dark border border-success text-center text-white updates m-auto">
         <br>
         <br>
-        <!-- Link Buttons to other pages -->
-<section class="container-fluid text-center justify-content-center">
-    <ul class="col list-inline">
-        <li class="list-inline-item" id="code-link">
-            <a
-                class="btn btn-success btn-default btn-lg light-green accent-4 raised round animated bounceInLeft"
-                href="https://flowmar.gwiddle.co.uk/code"
-                role="button">
-                <span class="codebtnword">Code</span>
-            </a>
-        </li>
-        <li class="list-inline-item" id="flow-link">
-            <a
-                class="btn btn-primary raised round light-blue accent-2 btn-lg animated bounceInRight"
-                href="https://flowmar.gwiddle.co.uk/flow"
-                role="button">
-                <span class="flowbtnword">
-                    Flow
-                </span>
-            </a>
-        </li>
-        <li class="list-inline-item" id="contact-link">
-            <a
-                class="btn btn-warning btn-lg raised round amber accent-4 animated bounceInDown"
-                href="https://flowmar.gwiddle.co.uk/contact"
-                role="button">
-                <span class="contactbtnword">
-                    Contact
-                </span>
-            </a>
-        </li>
-    </ul>
-</div>
-</section>
+        
 
         <br>
         <br>

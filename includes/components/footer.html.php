@@ -1,7 +1,7 @@
 <!-- Footer -->
-<div class="container-fluid z-depth-3">
+<div class="container-fluid z-depth-3 mb-3">
             <div class="row card bg-transparent animated flipInX">
-                <footer class="jumbotron-fluid col-12 p-4">
+                <footer class="col-12 p-4">
                     <small>Connect With Me</small>
                     <br>
                     <ul class="connect list-inline">
