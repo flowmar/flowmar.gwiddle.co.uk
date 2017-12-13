@@ -64,8 +64,6 @@
         class="d-flex col-12 justify-content-center bg-dark border border-success text-center text-white updates m-auto">
         <br>
         <br>
-        
-
         <br>
         <br>
         <hr>

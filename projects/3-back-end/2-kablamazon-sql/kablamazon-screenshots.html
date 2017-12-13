@@ -7,15 +7,15 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>LIRI BOT Screenshots</title>
+    <title>Kablamazon Screenshots</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed|" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed|Concert+One" rel="stylesheet">
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css" rel="stylesheet" integrity="sha256-T8M8tt1CqWbH1U2VJnjN1hHz1Zg/yObaabC3hSawWAg=" crossorigin="anonymous">
 
-    <link href="../../../css/liriscreenshots.css" rel="stylesheet">
+    <link href="../../../css/kablamazon-screenshots.css" rel="stylesheet">
 </head>
 
 <body class="container-fluid border">
@@ -24,7 +24,7 @@
     <header class="row border border-dark z-depth-1-half animated slideInDown" id="banner">
         <div class="col"></div>
 
-        <div class="col-10 text-center font-weight-bold m-4 display-4" id="title">LiriBot</div>
+        <div class="col-10 text-center font-weight-bold m-4 display-4" id="title">Kablamazon</div>
 
         <div class="col"></div>
     </header>
@@ -35,46 +35,56 @@
         <div class="col-12">
 
     <!-- Intro-->
-            <article class="border p-2 z-depth-3 animated slideInLeft">
+            <article class="border border-dark p-2 z-depth-3 animated slideInLeft">
                 <header class="">
-                    <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">The Liri Application</h2>
+                    <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">The Kablamazon Application</h2>
                 </header>
 
                 <hr class="white">
                 <!-- <p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p> -->
 
                 <p class="ml-1 font-weight-bold mt-2">
-                    LIRI is a node command-line application that takes in commands, and then accesses APIs to return the requested information.
+                    Kablamazon is a command line application that functions as a storefront using a MySQL database. 
                 </p>
 
                 <p class="ml-1 font-weight-bold mt-2">
-                        LIRI can access the Twitter, Spotify, and OMDB(Open Movie Database) APIs.
+                         
                     </p>
 
             </article>
 
             <br>
 <!-- How To Use -->
-            <article class="border p-2 z-depth-3 animated slideInRight">
+            <article class="border border-dark p-2 z-depth-3 animated slideInRight">
                 <header class="">
                     <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">How to Use</h2>
                 </header>
 
                 <hr class="white">
 
-                <p class="ml-1 font-weight-bold mt-2">
-                    In order to use LIRI, it must be accessed via the node and the command line:
-                    <br><br>
-                    <code class="m-3 bg-black text-success hoverable">node liri.js &lt;command&gt; [option1, option2...]</code>
+                <p class="ml-1 font-weight-bold mt-2 text-center">
+                    To use the app, you must have Node installed, and must access it via the command line.
+                    </p>
+                    <br>
+                    <p class="ml-1 font-weight-bold text-center">
+                After installing Node, go to the root directory of the application, where the <code class="bg-blue text-white">package.json</code> file is located, <br>and <code>npm install</code> to install the required dependencies.</p>
+                <br>
+                <p class="ml-1 font-weight-bold text-center">
+                    To start the app run:
                 </p>
+                <p class="ml-1 font-weight-bold text-center">
+                    <code class="text-center m-3 bg-black text-success hoverable">node kablamazonCustomer.js</code>
+                </p>
+                
+                <p class="ml-1 font-weight-bold mt-2 text-center">Then follow the directions on screen!</p>
 
 
-<!-- Available Commands -->
+<!-- Workflow
                 <div class="container border border-dark z-depth-1 hoverable" id="commands">
-                    <h3 class="text-center p-2 pt-3 font-weight-bold">Available Commands</h3>
+                    <h3 class="text-center p-2 pt-3 font-weight-bold">App Flow</h3>
                     <hr class="white">
                     <dl class="row">
-                        <dt class="col-6">my-tweets</dt>
+                        <dt class="col-6">1. The</dt>
                         <dd class="col-6">Returns the user's last 20 Tweets</dd>
 
                         <dt class="col-6">spotify-this-song "&lt;song title&gt;" "&lt;artist name&gt;"</dt>
@@ -83,35 +93,47 @@
                         <dt class="col-6">movie-this "&lt;movie name&gt;"</dt>
                         <dd class="col-6">Searches the Open Movie Database for the indicated movie and returns relevant information.</dd>
                     </dl>
-                    </div>
+                    </div> -->
             </article>
 
             <br>
 
 <!-- Examples -->
-            <article class="border p-2 z-depth-3 animated slideInLeft">
+            <article class="border border-dark  p-2 z-depth-3 animated slideInLeft">
                     <header class="">
-                        <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">Examples</h2>
+                        <h2 class="ml-1 pl-2 pt-2 font-weight-bold text-center p-1">App Flow</h2>
                     </header>
 
                 <hr class="white">
                     <figure>
-                        <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="my-tweets-shot" src="1.png" alt="Screenshot of 'my-tweets' command">
-                        <figcaption class="font-weight-bold text-center">Using the 'my-tweets' command displays the user's last 20 tweets.</figcaption>
+                        <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="my-tweets-shot" src="1.png" alt="Screenshot of ">
+                        <figcaption class="font-weight-bold text-center">First you are presented with a table showing the products that are available for sale. A SQL query is made requesting the relevant information, and the data is displayed.</figcaption>
                     </figure>
                         <hr class="white">
 
                         <figure>
                             <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="spotify-shot" src="2.png" alt="Screenshot of 'spotify-this-song' command">
-                            <figcaption class="font-weight-bold text-center">The song that most closely matches the query is displayed.</figcaption>
+                            <figcaption class="font-weight-bold text-center">Enter the item ID number and quantity of the item that you wish to purchase. Regular Expressions are used to ensure that you enter valid choices.</figcaption>
                         </figure>
                             <hr class="white">
 
                             <figure>
                                 <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="movie-shot" src="3.png" alt="Screenshot of 'movie-this' command">
-                                <figcaption class="font-weight-bold text-center">A summary of the movie is shown.</figcaption>
+                                <figcaption class="font-weight-bold text-center">Another SQL query is made using the selected item ID in order to retrieve the name of the item. The user is asked to confirm their order.</figcaption>
                             </figure>
                                 <hr class="white">
+
+                                <figure>
+                                    <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="movie-shot" src="4.png" alt="Screenshot of 'movie-this' command">
+                                    <figcaption class="font-weight-bold text-center">Once confirmed, the application checks the requested amount against the stock quantity available and prints out the relevant information if the transaction is successful. </figcaption>
+                                </figure>
+
+                                <hr class="white">
+
+                                <figure>
+                                    <img class="img-fluid rounded text-center p-3 img-responsive hoverable" id="movie-shot" src="5.png" alt="Screenshot of 'movie-this' command">
+                                    <figcaption class="font-weight-bold text-center">If there is not enough stock available, the transaction is cancelled and you are returned to the main screen.</figcaption>
+                                </figure>
                 </article>
         </div>
 
