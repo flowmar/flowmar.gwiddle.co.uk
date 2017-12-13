@@ -32,9 +32,9 @@
         Back End Development
     </a>
 
-                <a class="btn btn-default animated bounceInDown waves-effect waves-light" href="https://<?php echo $_SERVER['HTTP_HOST']?>/projects/4-full-stack/" role="button">
+                <!-- <a class="btn btn-default animated bounceInDown waves-effect waves-light" href="https://<?php echo $_SERVER['HTTP_HOST']?>/projects/4-full-stack/" role="button">
 Full Stack Projects
-</a>
+</a> -->
                 <!-- <div class="btn-group">
             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hunker Up</button>
         </div> -->

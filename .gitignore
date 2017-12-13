@@ -3,7 +3,7 @@ node_modules
 font
 sass
 robots.txt
-db.*
+includes/components/db*
 .vscode
 vendor
 
